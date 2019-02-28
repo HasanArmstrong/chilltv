@@ -14,7 +14,22 @@ section{
     background-color: yellow;
 }
 footer{
-    height: 400px;
+    height: 241px;
     background-color: black;
     color: white;
+}
+
+.custom-footer{
+    margin-left:98px;
+    margin-right:98px;
+    
+}
+
+.row {
+border: 1px solid white;
+}
+
+.social-links {
+    display:flex;
+    justify-content:space-between;
 }
