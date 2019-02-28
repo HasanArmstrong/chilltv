@@ -33,3 +33,9 @@ border: 1px solid white;
     display:flex;
     justify-content:space-between;
 }
+.cardimg {margin-top: 15%;}
+.imggg {opacity: 0.4;}
+.mgenre {width: 100%}
+html {background-color: rgb(29, 29, 29);}
+.bgcl {background-color: rgb(29, 29, 29);}
+.dropdown-menu {background-color: rgb(29, 29, 29) !important;}

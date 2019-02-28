@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!--logo-->
-            <img class="logo" src="img/logonf.png" alt="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+        <!--logo-->
+        <img class="logo" src="img/logonf.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -27,35 +40,75 @@
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-            </nav>
-
-    <header>
-        <div class="container">
+            </form>
         </div>
-    </header>
+    </nav>
+
+    <header1>
+        <div class="text-center">
+            <div class="card bg-dark text-white">
+                <div class="bgtrans">
+                    <img class="imggg card-img" src=".img/bg1.jpeg" alt="Card image">
+                </div>
+                <div class="cardimg card-img-overlay">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Welcome to the whole new level of streaming movies brought to you from Mars</p>
+                    <button type="button" class="btn btn-outline-light">Chill with us</button>
+                </div>
+            </div>
+        </div>
+    </header1>
     <section>
         <div class="container">
         </div>
     </section>
+
+
+    <!-- Movies genre section -->
+    <body2 >
+            <div class="bgcl dropdown border-0">
+                <button class="bgcl mgenre btn text-light border-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Genre
+                </button>
+                <div class="mgenre dropdown-menu" aria-labelledby="dropdownMenuButton">
+                 <div class="row">
+                  <div class="bgcl col-4">
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Action</button>
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Crime</button>
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Drama</button>
+                  </div>
+                  <div class="bgcl col-4">
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Romance</button>
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Horror</button>
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Comedies</button>
+        
+                </div>  
+                  <div class="bgcl col-4">
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Anime</button>
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Sci-fi</button>
+                    <button type="button" class="btn btn-outline-light col-12 border-0">Documentaries</button>
+                  </div> 
+                </div>
+            </div>
+        </body2>
     <footer>
         <div class="container">
             <div class="row">
@@ -79,4 +132,5 @@
       </div>              
     </footer>
 </body>
+
 </html>
