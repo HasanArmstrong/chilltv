@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 100px;
+}
+header{
+    height: 500px;
+    background-color: black;
+}
+section{
+    height: 400px;
+    background-color: yellow;
+}
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+}
